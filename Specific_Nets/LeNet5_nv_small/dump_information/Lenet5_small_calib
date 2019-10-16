@@ -1,0 +1,109 @@
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_execute_task 1296
+engine->network->num_operations=12                                                                                                   
+op_desc  0 index = 0 roi_index = 0 op_type=1 dependency_count=1                                                                      
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=3 event=2 res=0                                                                                                    
+consumer[2] index=1 event=2 res=0                                                                                                    
+consumer[3] index=-1 event=1 res=0                                                                                                   
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=-1 event=1 res=0                                                                                                  
+                                                                                                                                     
+op_desc  1 index = 1 roi_index = 0 op_type=2 dependency_count=1                                                                      
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=-1 event=1 res=0                                                                                                   
+consumer[2] index=4 event=2 res=0                                                                                                    
+consumer[3] index=2 event=1 res=0                                                                                                    
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=0 event=3 res=0                                                                                                   
+                                                                                                                                     
+op_desc  2 index = 2 roi_index = 0 op_type=3 dependency_count=1                                                                      
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=3 event=1 res=0                                                                                                    
+consumer[2] index=-1 event=1 res=0                                                                                                   
+consumer[3] index=5 event=2 res=0                                                                                                    
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=-1 event=1 res=0                                                                                                  
+                                                                                                                                     
+op_desc  3 index = 3 roi_index = 0 op_type=1 dependency_count=3                                                                      
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=6 event=2 res=0                                                                                                    
+consumer[2] index=4 event=2 res=0                                                                                                    
+consumer[3] index=-1 event=1 res=0                                                                                                   
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=-1 event=1 res=0                                                                                                  
+                                                                                                                                     
+op_desc  4 index = 4 roi_index = 0 op_type=2 dependency_count=2                                                                      
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=-1 event=1 res=0                                                                                                   
+consumer[2] index=7 event=2 res=0                                                                                                    
+consumer[3] index=5 event=1 res=0                                                                                                    
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=3 event=3 res=0                                                                                                   
+                                                                                                                                     
+op_desc  5 index = 5 roi_index = 0 op_type=3 dependency_count=2                                                                      
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=6 event=1 res=0                                                                                                    
+consumer[2] index=-1 event=1 res=0                                                                                                   
+consumer[3] index=-1 event=1 res=0                                                                                                   
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=-1 event=1 res=0                                                                                                  
+                                                                                                                                     
+op_desc  6 index = 6 roi_index = 0 op_type=1 dependency_count=3                                                                      
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=10 event=2 res=0                                                                                                   
+consumer[2] index=7 event=2 res=0                                                                                                    
+consumer[3] index=-1 event=1 res=0                                                                                                   
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=-1 event=1 res=0                                                                                                  
+                                                                                                                                     
+op_desc  7 index = 7 roi_index = 0 op_type=2 dependency_count=2                                                                      
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=-1 event=1 res=0                                                                                                   
+consumer[2] index=8 event=1 res=0                                                                                                    
+consumer[3] index=-1 event=1 res=0                                                                                                   
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=6 event=3 res=0                                                                                                   
+                                                                                                                                     
+op_desc  8 index = 8 roi_index = 0 op_type=2 dependency_count=1                                                                      
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=-1 event=1 res=0                                                                                                   
+consumer[2] index=9 event=1 res=0                                                                                                    
+consumer[3] index=-1 event=1 res=0                                                                                                   
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=-1 event=1 res=0                                                                                                  
+                                                                                                                                     
+op_desc  9 index = 9 roi_index = 0 op_type=2 dependency_count=1                                                                      
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=10 event=1 res=0                                                                                                   
+consumer[2] index=11 event=2 res=0                                                                                                   
+consumer[3] index=-1 event=1 res=0                                                                                                   
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=-1 event=1 res=0                                                                                                  
+                                                                                                                                     
+op_desc 10 index = 10 roi_index = 0 op_type=1 dependency_count=3                                                                     
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=-1 event=1 res=0                                                                                                   
+consumer[2] index=11 event=2 res=0                                                                                                   
+consumer[3] index=-1 event=1 res=0                                                                                                   
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=-1 event=1 res=0                                                                                                  
+                                                                                                                                     
+op_desc 11 index = 11 roi_index = 0 op_type=2 dependency_count=2                                                                     
+consumer[0] index=-1 event=1 res=0                                                                                                   
+consumer[1] index=-1 event=1 res=0                                                                                                   
+consumer[2] index=-1 event=1 res=0                                                                                                   
+consumer[3] index=-1 event=1 res=0                                                                                                   
+consumer[4] index=-1 event=1 res=0                                                                                                   
+consumer[5] index=-1 event=1 res=0                                                                                                   
+fused_parent index=10 event=3 res=0                                                                                                  

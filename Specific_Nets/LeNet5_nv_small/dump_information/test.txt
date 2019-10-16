@@ -1,0 +1,126 @@
+creating new runtime context...
+xiaorz Runtime.cpp load 345 m_memory[0].hMem->fd=4 m_memory[0].hMem->prime_handle=1 
+xiaorz Runtime.cpp load 345 m_memory[1].hMem->fd=5 m_memory[1].hMem->prime_handle=2 
+xiaorz Runtime.cpp load 350 m_memory[2].getHandle() = NULL
+xiaorz Runtime.cpp load 345 m_memory[3].hMem->fd=6 m_memory[3].hMem->prime_handle=3 
+xiaorz Runtime.cpp load 345 m_memory[4].hMem->fd=7 m_memory[4].hMem->prime_handle=4 
+xiaorz Runtime.cpp load 345 m_memory[5].hMem->fd=8 m_memory[5].hMem->prime_handle=5 
+xiaorz Runtime.cpp load 345 m_memory[6].hMem->fd=9 m_memory[6].hMem->prime_handle=6 
+xiaorz Runtime.cpp load 345 m_memory[7].hMem->fd=10 m_memory[7].hMem->prime_handle=7 
+xiaorz Runtime.cpp load 345 m_memory[8].hMem->fd=11 m_memory[8].hMem->prime_handle=8 
+xiaorz Runtime.cpp load 345 m_memory[9].hMem->fd=12 m_memory[9].hMem->prime_handle=9 
+xiaorz Runtime.cpp load 345 m_memory[10].hMem->fd=13 m_memory[10].hMem->prime_handle=10 
+xiaorz Runtime.cpp load 345 m_memory[11].hMem->fd=14 m_memory[11].hMem->prime_handle=11 
+xiaorz Runtime.cpp load 350 m_memory[12].getHandle() = NULL
+xiaorz Runtime.cpp load 345 m_memory[13].hMem->fd=15 m_memory[13].hMem->prime_handle=12 
+xiaorz Runtime.cpp load 345 m_memory[14].hMem->fd=16 m_memory[14].hMem->prime_handle=13 
+xiaorz Runtime.cpp load 345 m_memory[15].hMem->fd=17 m_memory[15].hMem->prime_handle=14 
+xiaorz Runtime.cpp load 345 m_memory[16].hMem->fd=18 m_memory[16].hMem->prime_handle=15 
+xiaorz Runtime.cpp load 345 m_memory[17].hMem->fd=19 m_memory[17].hMem->prime_handle=16 
+xiaorz Runtime.cpp load 345 m_memory[18].hMem->fd=20 m_memory[18].hMem->prime_handle=17 
+xiaorz Runtime.cpp load 345 m_memory[19].hMem->fd=21 m_memory[19].hMem->prime_handle=18 
+xiaorz Runtime.cpp load 345 m_memory[20].hMem->fd=22 m_memory[20].hMem->prime_handle=19 
+xiaorz Runtime.cpp load 345 m_memory[21].hMem->fd=23 m_memory[21].hMem->prime_handle=20 
+xiaorz Runtime.cpp load 345 m_memory[22].hMem->fd=24 m_memory[22].hMem->prime_handle=21 
+xiaorz Runtime.cpp load 345 m_memory[23].hMem->fd=25 m_memory[23].hMem->prime_handle=22 
+xiaorz Runtime.cpp load 345 m_memory[24].hMem->fd=26 m_memory[24].hMem->prime_handle=23 
+xiaorz Runtime.cpp load 345 m_memory[25].hMem->fd=27 m_memory[25].hMem->prime_handle=24 
+xiaorz Runtime.cpp load 345 m_memory[26].hMem->fd=28 m_memory[26].hMem->prime_handle=25 
+xiaorz Runtime.cpp load 345 m_memory[27].hMem->fd=29 m_memory[27].hMem->prime_handle=26 
+xiaorz Runtime.cpp load 345 m_memory[28].hMem->fd=30 m_memory[28].hMem->prime_handle=27 
+xiaorz Runtime.cpp load 345 m_memory[29].hMem->fd=31 m_memory[29].hMem->prime_handle=28 
+xiaorz Runtime.cpp load 345 m_memory[30].hMem->fd=32 m_memory[30].hMem->prime_handle=29 
+xiaorz Runtime.cpp load 345 m_memory[31].hMem->fd=33 m_memory[31].hMem->prime_handle=30 
+Emulator starting
+dlaimg height: 28 x 28 x 1: LS: 224 SS: 0 Size: 6272
+submitting tasks...
+Runtime.cpp 794 submitInternal
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=22
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=5
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=34
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=6
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=7
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=8
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=9
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=10
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=11
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=12
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=13
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=14
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=35
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=15
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=16
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=17
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=18
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=19
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=20
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=21
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=23
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=24
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=25
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=26
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 206 address_list[i][j].handle=27
+address_list[i][j].offset=0
+xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/umd/port/linux/nvdla.c NvDlaSubmit 215 &args=0xffffc0a19030  args.tasks=0xffffc0a00f90
+Work Found!
+Work Done
+xiaorz Runtime.cpp submit 622 xiaorz Runtime.cpp submit 629 
+m_memory[ 0].hMem->fd= 4 m_memory[ 0].hMem->prime_handle= 1 
+m_memory[ 1].hMem->fd= 5 m_memory[ 1].hMem->prime_handle= 2 
+m_memory[ 2].hMem->fd=34 m_memory[ 2].hMem->prime_handle=31 
+m_memory[ 3].hMem->fd= 6 m_memory[ 3].hMem->prime_handle= 3 
+m_memory[ 4].hMem->fd= 7 m_memory[ 4].hMem->prime_handle= 4 
+m_memory[ 5].hMem->fd= 8 m_memory[ 5].hMem->prime_handle= 5 
+m_memory[ 6].hMem->fd= 9 m_memory[ 6].hMem->prime_handle= 6 
+m_memory[ 7].hMem->fd=10 m_memory[ 7].hMem->prime_handle= 7 
+m_memory[ 8].hMem->fd=11 m_memory[ 8].hMem->prime_handle= 8 
+m_memory[ 9].hMem->fd=12 m_memory[ 9].hMem->prime_handle= 9 
+m_memory[10].hMem->fd=13 m_memory[10].hMem->prime_handle=10 
+m_memory[11].hMem->fd=14 m_memory[11].hMem->prime_handle=11 
+m_memory[12].hMem->fd=35 m_memory[12].hMem->prime_handle=32 
+m_memory[13].hMem->fd=15 m_memory[13].hMem->prime_handle=12 
+m_memory[14].hMem->fd=16 m_memory[14].hMem->prime_handle=13 
+m_memory[15].hMem->fd=17 m_memory[15].hMem->prime_handle=14 
+m_memory[16].hMem->fd=18 m_memory[16].hMem->prime_handle=15 
+m_memory[17].hMem->fd=19 m_memory[17].hMem->prime_handle=16 
+m_memory[18].hMem->fd=20 m_memory[18].hMem->prime_handle=17 
+m_memory[19].hMem->fd=21 m_memory[19].hMem->prime_handle=18 
+m_memory[20].hMem->fd=22 m_memory[20].hMem->prime_handle=19 
+m_memory[21].hMem->fd=23 m_memory[21].hMem->prime_handle=20 
+m_memory[22].hMem->fd=24 m_memory[22].hMem->prime_handle=21 
+m_memory[23].hMem->fd=25 m_memory[23].hMem->prime_handle=22 
+m_memory[24].hMem->fd=26 m_memory[24].hMem->prime_handle=23 
+m_memory[25].hMem->fd=27 m_memory[25].hMem->prime_handle=24 
+m_memory[26].hMem->fd=28 m_memory[26].hMem->prime_handle=25 
+m_memory[27].hMem->fd=29 m_memory[27].hMem->prime_handle=26 
+m_memory[28].hMem->fd=30 m_memory[28].hMem->prime_handle=27 
+m_memory[29].hMem->fd=31 m_memory[29].hMem->prime_handle=28 
+m_memory[30].hMem->fd=32 m_memory[30].hMem->prime_handle=29 
+m_memory[31].hMem->fd=33 m_memory[31].hMem->prime_handle=30 
+execution time = 27196283.000000 us
+Shutdown signal received, exiting
+Test pass

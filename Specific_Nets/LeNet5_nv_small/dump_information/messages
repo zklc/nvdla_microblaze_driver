@@ -1,0 +1,1540 @@
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.896883] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_gem.c nvdla_submit 111 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.896905] arg=ffff80003ca2fd80  
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.897259] user_task=0000ffffc0a00f90
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.897341] 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.897484] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_gem.c nvdla_fill_task_desc 81 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.897492] task->address_list[ 0].handle=22 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.897859] task->address_list[ 1].handle=5 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.897997] task->address_list[ 2].handle=34 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.900058] task->address_list[ 3].handle=6 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.900297] task->address_list[ 4].handle=7 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.900435] task->address_list[ 5].handle=8 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.900577] task->address_list[ 6].handle=9 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.900840] task->address_list[ 7].handle=10 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.900990] task->address_list[ 8].handle=11 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.901338] task->address_list[ 9].handle=12 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.901545] task->address_list[10].handle=13 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.901726] task->address_list[11].handle=14 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.901924] task->address_list[12].handle=35 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.902191] task->address_list[13].handle=15 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.904119] task->address_list[14].handle=16 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.904247] task->address_list[15].handle=17 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.904388] task->address_list[16].handle=18 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.904497] task->address_list[17].handle=19 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.904678] task->address_list[18].handle=20 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.904772] task->address_list[19].handle=21 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.904939] task->address_list[20].handle=23 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.905095] task->address_list[21].handle=24 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.905172] task->address_list[22].handle=25 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.905248] task->address_list[23].handle=26 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.905325] task->address_list[24].handle=27 
+Oct 15 06:21:04 nvdla user.alert kernel: [14555.905437] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.905585] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_network_config 828 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.905613] req fd = 4 phy_addr = 00000000c0000000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.905988] req fd = 5 phy_addr = 00000000c0001000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.908457] req fd = 6 phy_addr = 00000000c0004000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.908678] req fd = 7 phy_addr = 00000000c0002000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.908917] req fd = 8 phy_addr = 00000000c0003000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.909121] req fd = 9 phy_addr = 00000000c0008000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.909270] req fd = 10 phy_addr = 00000000c0009000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.909360] req fd = 11 phy_addr = 00000000c000a000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.909447] req fd = 12 phy_addr = 00000000c000b000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.909534] req fd = 13 phy_addr = 00000000c000c000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.909621] req fd = 14 phy_addr = 00000000c000d000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.909708] req fd = 15 phy_addr = 00000000c0010000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.909814] req fd = 16 phy_addr = 00000000c000e000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.909952] req fd = 17 phy_addr = 00000000c0080000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.910372] req fd = 18 phy_addr = 00000000c000f000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.912727] req fd = 19 phy_addr = 00000000c0018000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.912895] req fd = 20 phy_addr = 00000000c001a000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.913081] req fd = 21 phy_addr = 00000000c0019000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.913246] req fd = 22 phy_addr = 00000000c001c000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.913461] req fd = 23 phy_addr = 00000000c001d000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.913677] req fd = 24 phy_addr = 00000000c001e000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.913795] req fd = 25 phy_addr = 00000000c0020000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.914194] req fd = 26 phy_addr = 00000000c001f000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.914334] req fd = 27 phy_addr = 00000000c0022000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.914497] req fd = 28 phy_addr = 00000000c0023000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.914654] req fd = 29 phy_addr = 00000000c0024000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.914835] req fd = 30 phy_addr = 00000000c0025000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.914967] req fd = 31 phy_addr = 00000000c0026000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.915200] req fd = 32 phy_addr = 00000000c0027000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.915373] req fd = 33 phy_addr = 00000000c0028000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.915549] physical_address : [
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.915730] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.915893]   fd : 4
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.916026]   phy_addr : 0x00000000c0000000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.916200] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.916384] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.916467]   fd : 5
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.916561]   phy_addr : 0x00000000c0001000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.916663] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.916894] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.917023]   fd : 6
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.917174]   phy_addr : 0x00000000c0004000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.917301] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.917452] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.917559]   fd : 7
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.917639]   phy_addr : 0x00000000c0002000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.917760] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.917909] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.921050]   fd : 8
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.921170]   phy_addr : 0x00000000c0003000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.921278] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.921525] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.921628]   fd : 9
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.921709]   phy_addr : 0x00000000c0008000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.921885] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.923725] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.923860]   fd : 10
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.923947]   phy_addr : 0x00000000c0009000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.924089] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.924225] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.924386]   fd : 11
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.924429]   phy_addr : 0x00000000c000a000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.924503] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.924672] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.924765]   fd : 12
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.924813]   phy_addr : 0x00000000c000b000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.924913] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.925033] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.925189]   fd : 13
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.925394]   phy_addr : 0x00000000c000c000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.925497] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.925700] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.925837]   fd : 14
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.926099]   phy_addr : 0x00000000c000d000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.926207] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.926320] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.926388]   fd : 15
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.926453]   phy_addr : 0x00000000c0010000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.926541] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.926813] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.926968]   fd : 16
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.927032]   phy_addr : 0x00000000c000e000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.927137] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.927433] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.927499]   fd : 17
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.927544]   phy_addr : 0x00000000c0080000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.927599] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.927717] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.927848]   fd : 18
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931139]   phy_addr : 0x00000000c000f000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931216] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931322] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931370]   fd : 19
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931412]   phy_addr : 0x00000000c0018000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931461] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931550] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931612]   fd : 20
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931655]   phy_addr : 0x00000000c001a000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931703] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931830] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.931949]   fd : 21
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.932026]   phy_addr : 0x00000000c0019000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.932075] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.932151] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.932195]   fd : 22
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.932254]   phy_addr : 0x00000000c001c000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.932367] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.932572] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.932669]   fd : 23
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.932779]   phy_addr : 0x00000000c001d000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.932920] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.933133] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.933315]   fd : 24
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.933468]   phy_addr : 0x00000000c001e000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.933588] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.933911] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.934034]   fd : 25
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.934097]   phy_addr : 0x00000000c0020000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.936786] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.936930] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937041]   fd : 26
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937086]   phy_addr : 0x00000000c001f000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937150] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937253] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937314]   fd : 27
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937357]   phy_addr : 0x00000000c0022000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937455] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937532] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937576]   fd : 28
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937635]   phy_addr : 0x00000000c0023000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937684] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.937820] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.938012]   fd : 29
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.940423]   phy_addr : 0x00000000c0024000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.940628] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.940741] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.940834]   fd : 30
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.940937]   phy_addr : 0x00000000c0025000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.941058] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.941233] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.941338]   fd : 31
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.941454]   phy_addr : 0x00000000c0026000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.941577] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.941748] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.942056]   fd : 32
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.943706]   phy_addr : 0x00000000c0027000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.943762] },
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.943978] {
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.944120]   fd : 33
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.944215]   phy_addr : 0x00000000c0028000
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.944331] }
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.944473] ]
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.944569] /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c 855 dla_read_network_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.944798] Enter:dla_read_network_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.945588] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_network_config 882 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.945596] network_addr=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.947688] sizeof(struct dla_network_desc)=40
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.947832] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.948069] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_network_config 902 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.948326] xiaorz temp[0]=21
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.948464] xiaorz temp[1]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.948594] xiaorz temp[2]=22
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.948729] xiaorz temp[3]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.948822] xiaorz temp[4]=20
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.948922] xiaorz temp[5]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.949039] xiaorz temp[6]=23
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.949175] xiaorz temp[7]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.949398] xiaorz temp[8]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.949545] xiaorz temp[9]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.949771] xiaorz temp[10]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.950069] xiaorz temp[11]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.952782] xiaorz temp[12]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.952894] xiaorz temp[13]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.952960] xiaorz temp[14]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953019] xiaorz temp[15]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953118] xiaorz temp[16]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953213] xiaorz temp[17]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953275] xiaorz temp[18]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953334] xiaorz temp[19]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953431] xiaorz temp[20]=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953489] xiaorz temp[21]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953547] xiaorz temp[22]=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953605] xiaorz temp[23]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953674] xiaorz temp[24]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953790] xiaorz temp[25]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953902] xiaorz temp[26]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.953990] xiaorz temp[27]=255
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.956476] xiaorz temp[28]=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.956711] xiaorz temp[29]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.956897] xiaorz temp[30]=12
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.957299] xiaorz temp[31]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.957464] xiaorz temp[32]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.957543] xiaorz temp[33]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.957621] xiaorz temp[34]=25
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.957728] xiaorz temp[35]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.957808] xiaorz temp[36]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.957946] xiaorz temp[37]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.958010] xiaorz temp[38]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.958069] xiaorz temp[39]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.958127] network.operation_desc_index=21
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.958219] network.surface_desc_index=22
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960032] network.dependency_graph_index=20
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960169] network.lut_data_index=23
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960268] network.roi_array_index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960386] network.surface_index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960485] network.stat_list_index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960582] network.reserved1=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960647] network.op_head[0]=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960710] network.op_head[1]=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960771] network.op_head[2]=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960832] network.op_head[3]=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960906] network.op_head[4]=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.960973] network.op_head[5]=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961053] network.num_rois=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961131] network.num_operations=12
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961229] network.num_luts=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961296] network.num_addresses=25
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961378] network.input_layer=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961459] network.dynamic_roi=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961540] network.reserved0=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961617] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961680] Exit:dla_read_network_config status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961781] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_execute_task 1296 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.961789] engine->network->num_operations=12
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.963984] op_desc  0 index = 0 roi_index = 0 op_type=1 dependency_count=1 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.964121] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.964265] consumer[1] index=3 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.964390] consumer[2] index=1 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.964549] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.964688] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.964823] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.965092] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.965092] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.965455] op_desc  1 index = 1 roi_index = 0 op_type=2 dependency_count=1 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.965462] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.965594] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.965725] consumer[2] index=4 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.965896] consumer[3] index=2 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.965994] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.966072] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.968060] fused_parent index=0 event=3 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.968060] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.968574] op_desc  2 index = 2 roi_index = 0 op_type=3 dependency_count=1 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.968595] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.968946] consumer[1] index=3 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.969159] consumer[2] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.969342] consumer[3] index=5 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.969448] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.969540] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.969650] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.969650] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.969905] op_desc  3 index = 3 roi_index = 0 op_type=1 dependency_count=3 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.969914] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.970032] consumer[1] index=6 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.970152] consumer[2] index=4 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.970229] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.970338] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.970415] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.970492] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.970492] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.970874] op_desc  4 index = 4 roi_index = 0 op_type=2 dependency_count=2 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.970900] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.973536] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.973795] consumer[2] index=7 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.974112] consumer[3] index=5 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.974357] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.974472] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.974552] fused_parent index=3 event=3 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.974552] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.976117] op_desc  5 index = 5 roi_index = 0 op_type=3 dependency_count=2 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.976152] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.976433] consumer[1] index=6 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.976756] consumer[2] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.976887] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.977153] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.977327] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.977452] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.977452] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.977680] op_desc  6 index = 6 roi_index = 0 op_type=1 dependency_count=3 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.977689] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.977919] consumer[1] index=10 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.978086] consumer[2] index=7 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.978197] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.978318] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.978441] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.980324] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.980324] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.980668] op_desc  7 index = 7 roi_index = 0 op_type=2 dependency_count=2 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.980678] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.980809] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.980940] consumer[2] index=8 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.981019] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.981120] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.981216] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.981322] fused_parent index=6 event=3 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.981322] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.981574] op_desc  8 index = 8 roi_index = 0 op_type=2 dependency_count=1 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.981582] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.981734] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.981944] consumer[2] index=9 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.983471] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.983632] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.983714] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.983805] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.983805] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.984132] op_desc  9 index = 9 roi_index = 0 op_type=2 dependency_count=1 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.984152] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.984373] consumer[1] index=10 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.984669] consumer[2] index=11 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.984907] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.985046] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.985388] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.985663] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.985663] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.985925] op_desc 10 index = 10 roi_index = 0 op_type=1 dependency_count=3 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.985933] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.988075] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.988272] consumer[2] index=11 event=2 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.988410] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.988564] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.988727] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.989005] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.989005] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.991594] op_desc 11 index = 11 roi_index = 0 op_type=2 dependency_count=2 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.991610] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.991848] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.991947] consumer[2] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.992098] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.992267] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.992375] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.992470] fused_parent index=10 event=3 res=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.992470] 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.992729] Enter: dla_initiate_processors
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.992877] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.993282] i = 0 sizeof(struct dla_common_op_desc) = 36  index = 0 op_base =  0 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.993427] task->dependency_graph_addr =  20 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.993573] Enter: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.993716] Prepare Convolution operation index 0 ROI 0 dep_count 1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.993920] Enter: dla_prepare_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.996888] processor:Convolution group:0, rdma_group:0 available
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.997184] Enter: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.997420] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.997433] roi_index=0 index=0 sizeof(union dla_surface_container)=644 base=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.997843] group->id=0 processor->op_type=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.997971] Exit: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.998104] Exit: dla_prepare_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.999225] Enter: dla_program_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14555.999363] Program Convolution operation index 0 ROI 0 Group[0]
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.001611] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.001635] phys_addr = ffff80003ca2fa58
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.001954] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.002128] phys_addr = ffff80003ca2fa70
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.019172] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/conv.c processor_conv_program 763 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.019671] conv weight_address=00000000c0001000 input_address=00000000c002a000 output_address=          (null)
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.019963] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.020585] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.020852] i = 1 sizeof(struct dla_common_op_desc) = 36  index = 3 op_base =  108 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.021010] task->dependency_graph_addr =  20 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.021204] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.021431] i = 0 sizeof(struct dla_common_op_desc) = 36  index = 1 op_base =  36 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.021654] task->dependency_graph_addr =  20 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.021842] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.022097] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.022220] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.022371] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.022520] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.022805] group->roi_index=0, group->id=0, processor->op_type=1 group->op_desc->index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.023005] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.023013] group->op_desc->consumers[1].index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.023241] group->op_desc->consumers[2].index=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.023379] group->op_desc->consumers[3].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.023553] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.023743] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.026940] Enter: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.028334] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 592 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.028349] op->index=0 group->consumers[1]->index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.028774] op->dependency_count=1 group->consumers[1]->dependency_count=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.028920] op->index=0 group->consumers[2]->index=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.029070] op->dependency_count=1 group->consumers[2]->dependency_count=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.029212] Update dependency operation index 3 ROI 0 DEP_COUNT=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.029558] Update dependency operation index 1 ROI 0 DEP_COUNT=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.029657] enable SDP in dla_update_dependency as depdency are resolved
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.029852] Enter: dla_enable_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.030054] exit dla_enable_operation without actual enable due to processor hasn't been programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.031655] Exit: dla_enable_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.031786] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 626 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.031795] op->index=0 group->consumers[1]->index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.032078] op->dependency_count=1 group->consumers[1]->dependency_count=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.032206] op->index=0 group->consumers[2]->index=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.032357] op->dependency_count=1 group->consumers[2]->dependency_count=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.032486] Exit: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.032879] Exit: dla_program_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.033026] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_submit_operation 452 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.033033] op_desc->dependency_count=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.033261] Exit: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.033393] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_initiate_processors 1119 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.033399] consumer->dependency_count=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.033815] Enter: dla_dequeue_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.036289] Dequeue op from Convolution processor, index=3 ROI=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.036548] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.036560] desc_cache[1][1]->index = 3 desc_cache[1][1]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.037145] Enter: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.037264] Prepare Convolution operation index 3 ROI 0 dep_count 2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.037544] Enter: dla_prepare_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.038173] processor:Convolution group:1, rdma_group:0 available
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.038310] Enter: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.039765] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.039782] roi_index=0 index=3 sizeof(union dla_surface_container)=644 base=1932
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.040243] group->id=1 processor->op_type=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.040537] Exit: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.040864] Exit: dla_prepare_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.041058] Enter: dla_program_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.041194] Program Convolution operation index 3 ROI 0 Group[1]
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.042680] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.043833] phys_addr = ffff80003ca2fa28
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.044194] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.044326] phys_addr = ffff80003ca2fa40
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.055205] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/conv.c processor_conv_program 763 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.056298] conv weight_address=00000000c0010000 input_address=00000000c0002000 output_address=          (null)
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.056691] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.057039] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.057323] i = 2 sizeof(struct dla_common_op_desc) = 36  index = 6 op_base =  216 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.057616] task->dependency_graph_addr =  20 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.057731] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.057996] i = 1 sizeof(struct dla_common_op_desc) = 36  index = 4 op_base =  144 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.059182] task->dependency_graph_addr =  20 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.059339] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.059448] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.059610] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.059717] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.059810] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.060164] group->roi_index=0, group->id=1, processor->op_type=1 group->op_desc->index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.060346] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.060353] group->op_desc->consumers[1].index=6
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.060541] group->op_desc->consumers[2].index=4
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.060786] group->op_desc->consumers[3].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.060995] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.061146] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.061347] Enter: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.061495] Update dependency operation index 6 ROI 0 DEP_COUNT=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.061624] Update dependency operation index 4 ROI 0 DEP_COUNT=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.061792] Exit: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.061914] Exit: dla_program_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.064824] Exit: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.064950] Exit: dla_dequeue_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.065025] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_initiate_processors 1133 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.065034] consumer->dependency_count=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.065252] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.065351] desc_cache[2][0]->index = 1 desc_cache[2][0]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.065919] Enter: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.066137] Prepare SDP operation index 1 ROI 0 dep_count 0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.067256] Enter: dla_prepare_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.067959] processor:SDP group:0, rdma_group:0 available
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.068176] Enter: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.068507] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.068549] roi_index=0 index=1 sizeof(union dla_surface_container)=644 base=644
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.068939] group->id=0 processor->op_type=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.069240] Exit: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.069586] Exit: dla_prepare_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.069745] Enter: dla_program_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.069854] Program SDP operation index 1 ROI 0 Group[0]
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.071312] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.071324] phys_addr = ffff80003ca2f798
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.072865] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.073163] phys_addr = ffff80003ca2f780
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.080139] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/sdp.c processor_sdp_program 731 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.081489] sdp x1_addr=00000000c000c000
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.081955] sdp dst_addr=00000000c0004000
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.082905] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.083163] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.083351] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.083363] desc_cache[2][1]->index = 4 desc_cache[2][1]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.083919] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.084225] i = 0 sizeof(struct dla_common_op_desc) = 36  index = 2 op_base =  72 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.084450] task->dependency_graph_addr =  20 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.084581] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.084668] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.084756] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.084767] desc_cache[1][0]->index = 0 desc_cache[1][0]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.085203] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.085556] group->roi_index=0, group->id=0, processor->op_type=2 group->op_desc->index=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.085804] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.085811] group->op_desc->consumers[1].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.085964] group->op_desc->consumers[2].index=4
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.088008] group->op_desc->consumers[3].index=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.088314] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.088474] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.088845] group->fused_parent->index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.089015] Enter: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.089299] Update dependency operation index 4 ROI 0 DEP_COUNT=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.089470] enable SDP in dla_update_dependency as depdency are resolved
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.089640] Enter: dla_enable_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.089740] exit dla_enable_operation without actual enable due to processor hasn't been programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.089939] Exit: dla_enable_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.091244] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 640 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.091258] op->index=1 group->fused_parent->index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.091624] group->fused_parent->dependency_cout=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.091767] event = 2 op->fused_parent.event=3 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.091907] Exit: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.092114] Exit: dla_program_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.092235] Enter: dla_enable_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.092355] Enable SDP operation index 1 ROI 0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.092944] Enter: dla_op_enabled
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.093061] Update dependency operation index 0 ROI 0 DEP_COUNT=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.093209] enable Convolution in dla_update_dependency as depdency are resolved
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.093370] Enter: dla_enable_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.093470] Enable Convolution operation index 0 ROI 0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.095833] Enter: dla_op_enabled
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.097746] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 592 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.097762] op->index=0 group->consumers[1]->index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.099238] op->dependency_count=0 group->consumers[1]->dependency_count=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.099457] op->index=0 group->consumers[2]->index=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.099857] op->dependency_count=0 group->consumers[2]->dependency_count=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.100062] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 626 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.100560] op->index=0 group->consumers[1]->index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.101555] op->dependency_count=0 group->consumers[1]->dependency_count=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.101884] op->index=0 group->consumers[2]->index=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.102256] op->dependency_count=0 group->consumers[2]->dependency_count=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.104199] Exit: dla_op_enabled
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.104493] Exit: dla_enable_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.104656] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 640 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.104665] op->index=1 group->fused_parent->index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.104934] group->fused_parent->dependency_cout=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.105036] event = 3 op->fused_parent.event=3 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.105209] Exit: dla_op_enabled
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.105395] Exit: dla_enable_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.105572] Exit: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.105721] Enter: dla_dequeue_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.105878] Dequeue op from SDP processor, index=4 ROI=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.107637] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.107652] desc_cache[2][1]->index = 4 desc_cache[2][1]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.108316] Enter: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.108488] Prepare SDP operation index 4 ROI 0 dep_count 0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.108740] Enter: dla_prepare_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.113716] processor:SDP group:1, rdma_group:1 available
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.115235] Enter: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.115606] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.115619] roi_index=0 index=4 sizeof(union dla_surface_container)=644 base=2576
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.116045] group->id=1 processor->op_type=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.116393] Exit: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.116709] Exit: dla_prepare_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.116932] Enter: dla_program_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.117107] Program SDP operation index 4 ROI 0 Group[1]
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.119829] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.119852] phys_addr = ffff80003ca2f768
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.120283] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.120458] phys_addr = ffff80003ca2f750
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.128278] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/sdp.c processor_sdp_program 731 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.128682] sdp x1_addr=00000000c000e000
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.128949] sdp dst_addr=00000000c0003000
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.129088] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.129834] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.130032] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.131919] i = 2 sizeof(struct dla_common_op_desc) = 36  index = 7 op_base =  252 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.132138] task->dependency_graph_addr =  20 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.132670] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.132963] i = 1 sizeof(struct dla_common_op_desc) = 36  index = 5 op_base =  180 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.133534] task->dependency_graph_addr =  20 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.133646] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.133715] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.134677] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.134694] desc_cache[1][1]->index = 3 desc_cache[1][1]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.137211] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.137957] group->roi_index=0, group->id=1, processor->op_type=2 group->op_desc->index=4
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.139698] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.139727] group->op_desc->consumers[1].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.139937] group->op_desc->consumers[2].index=7
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.140190] group->op_desc->consumers[3].index=5
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.140444] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.140665] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.140901] group->fused_parent->index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.141126] Enter: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.141384] Update dependency operation index 7 ROI 0 DEP_COUNT=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.141571] Exit: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.141668] Exit: dla_program_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.141943] Enter: dla_enable_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.143700] Enable SDP operation index 4 ROI 0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.145001] Enter: dla_op_enabled
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.145207] Update dependency operation index 3 ROI 0 DEP_COUNT=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.145477] Exit: dla_op_enabled
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.145824] Exit: dla_enable_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.147613] Exit: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.147822] Exit: dla_dequeue_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.147918] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.147931] desc_cache[3][0]->index = 2 desc_cache[3][0]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.148329] Enter: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.148465] Prepare PDP operation index 2 ROI 0 dep_count 1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.148630] Enter: dla_prepare_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.149810] processor:PDP group:0, rdma_group:0 available
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.152527] Enter: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.152865] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.152878] roi_index=0 index=2 sizeof(union dla_surface_container)=644 base=1288
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.153198] group->id=0 processor->op_type=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.153408] Exit: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.153631] Exit: dla_prepare_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.153743] Enter: dla_program_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.153856] Program PDP operation index 2 ROI 0 Group[0]
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.155032] group id 0 rdma id 0
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.155997] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.156009] phys_addr = ffff80003ca2fa70
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.156404] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.156576] phys_addr = ffff80003ca2fa78
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.164489] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/pdp.c processor_pdp_program 482 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.165947] pdp input_address=00000000c0004000 output_address=00000000c0002000
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.166145] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.167169] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.167203] desc_cache[1][1]->index = 3 desc_cache[1][1]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.167915] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.168052] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.168077] desc_cache[3][1]->index = 5 desc_cache[3][1]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.168587] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.168732] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.168820] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.169045] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.169374] group->roi_index=0, group->id=0, processor->op_type=3 group->op_desc->index=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.169544] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.169550] group->op_desc->consumers[1].index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.169659] group->op_desc->consumers[2].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.169778] group->op_desc->consumers[3].index=5
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.171228] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.171569] Enter: dla_isr_handler, reg:40000, mask:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.171721] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=40000
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.171983] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.174604] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.174631] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.174885] Enter: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.175101] Update dependency operation index 5 ROI 0 DEP_COUNT=2
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.175550] Exit: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.175859] Exit: dla_program_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.176059] Exit: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.176178] Enter: dla_dequeue_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.176374] Dequeue op from PDP processor, index=5 ROI=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.176509] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.176524] desc_cache[3][1]->index = 5 desc_cache[3][1]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.176849] Enter: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.176924] Prepare PDP operation index 5 ROI 0 dep_count 1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.177051] Enter: dla_prepare_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.180469] processor:PDP group:1, rdma_group:1 available
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.180684] Enter: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.180948] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.180961] roi_index=0 index=5 sizeof(union dla_surface_container)=644 base=3220
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.181175] group->id=1 processor->op_type=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.181377] Exit: dla_read_config
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.181674] Exit: dla_prepare_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.181800] Enter: dla_program_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.181953] Program PDP operation index 5 ROI 0 Group[1]
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.182049] group id 1 rdma id 1
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.182970] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.182981] phys_addr = ffff80003ca2fa40
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.185458] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.185599] phys_addr = ffff80003ca2fa48
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.194795] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/pdp.c processor_pdp_program 482 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.195952] pdp input_address=00000000c0003000 output_address=00000000c0008000
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.196232] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.196510] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.196521] desc_cache[1][2]->index = 6 desc_cache[1][2]->roi_index=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.196896] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.197049] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.197155] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.197309] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.197425] no desc get due to index==-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.197503] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.197702] group->roi_index=0, group->id=1, processor->op_type=3 group->op_desc->index=5
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.197836] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.197844] group->op_desc->consumers[1].index=6
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.200233] group->op_desc->consumers[2].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.200494] group->op_desc->consumers[3].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.200631] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.200792] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.200928] Enter: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.201142] Exit: dla_op_programmed
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.201247] Exit: dla_program_operation status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.201370] Exit: dla_submit_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.201496] Exit: dla_dequeue_operation
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.201583] Exit: dla_initiate_processors status=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.201694] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.202042] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.202153] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.202284] Handle cdma weight done event, processor Convolution group 0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.202394] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 592 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.202404] op->index=0 group->consumers[1]->index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.202615] op->dependency_count=0 group->consumers[1]->dependency_count=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.202738] op->index=0 group->consumers[2]->index=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.202850] op->dependency_count=0 group->consumers[2]->dependency_count=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.202940] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 626 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.203050] op->index=0 group->consumers[1]->index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.203493] op->dependency_count=0 group->consumers[1]->dependency_count=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.203634] op->index=0 group->consumers[2]->index=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.203792] op->dependency_count=0 group->consumers[2]->dependency_count=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.203950] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.204346] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.204465] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.204566] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.204681] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.204806] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.204942] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.205014] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.205098] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.alert kernel: [14556.229444] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.230352] Enter: dla_isr_handler, reg:10000, mask:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.231090] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=10000
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.232736] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.235312] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.235630] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.235753] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.235903] Handle cdma data done event, processor Convolution group 0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.236064] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 592 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.236088] op->index=0 group->consumers[1]->index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.236426] op->dependency_count=0 group->consumers[1]->dependency_count=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.236533] op->index=0 group->consumers[2]->index=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.236666] op->dependency_count=0 group->consumers[2]->dependency_count=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.236794] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 626 
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.236923] op->index=0 group->consumers[1]->index=3
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.237177] op->dependency_count=0 group->consumers[1]->dependency_count=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.237300] op->index=0 group->consumers[2]->index=1
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.237472] op->dependency_count=0 group->consumers[2]->dependency_count=0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.237624] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.237881] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.238036] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.238177] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.238491] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.238671] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.238855] Exit:dla_handle_events, ret:0
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.238982] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:04 nvdla user.warn kernel: [14556.239308] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.536389] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.536718] Enter: dla_isr_handler, reg:100001, mask:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.537483] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=100001
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.537933] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.543273] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.543434] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.543509] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.543598] Handle op complete event, processor Convolution group 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.543767] Enter:dla_op_completion processor Convolution group0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.544004] Completed Convolution operation index 0 ROI 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.544295] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 592 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.544315] op->index=0 group->consumers[1]->index=3
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.545366] op->dependency_count=0 group->consumers[1]->dependency_count=1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.545539] op->index=0 group->consumers[2]->index=1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.546442] op->dependency_count=0 group->consumers[2]->dependency_count=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.547256] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 626 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.548140] op->index=0 group->consumers[1]->index=3
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.548957] op->dependency_count=0 group->consumers[1]->dependency_count=1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.549263] op->index=0 group->consumers[2]->index=1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.550199] op->dependency_count=0 group->consumers[2]->dependency_count=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.550545] 1 HWLs done, totally 12 layers
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.551110] Enter: dla_dequeue_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.551324] Dequeue op from Convolution processor, index=6 ROI=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.552237] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.552249] desc_cache[1][2]->index = 6 desc_cache[1][2]->roi_index=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.553117] Enter: dla_submit_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.553237] Prepare Convolution operation index 6 ROI 0 dep_count 2
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.553762] Enter: dla_prepare_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.554520] processor:Convolution group:0, rdma_group:0 available
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.554694] Enter: dla_read_config
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.555300] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.555312] roi_index=0 index=6 sizeof(union dla_surface_container)=644 base=3864
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.556075] group->id=0 processor->op_type=1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.556255] Exit: dla_read_config
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.556801] Exit: dla_prepare_operation status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.557324] Enter: dla_program_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.557441] Program Convolution operation index 6 ROI 0 Group[0]
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.558860] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.558915] phys_addr = ffff80003ca2fa08
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.559536] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.559659] phys_addr = ffff80003ca2fa20
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.569563] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/conv.c processor_conv_program 763 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.569748] conv weight_address=00000000c0080000 input_address=00000000c0008000 output_address=          (null)
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.570030] no desc get due to index==-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.570960] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.571480] i = 3 sizeof(struct dla_common_op_desc) = 36  index = 10 op_base =  360 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.571824] task->dependency_graph_addr =  20 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.572536] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.572548] desc_cache[2][2]->index = 7 desc_cache[2][2]->roi_index=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.573540] no desc get due to index==-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.573677] no desc get due to index==-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.573826] no desc get due to index==-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.574041] no desc get due to index==-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.574755] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.575440] group->roi_index=0, group->id=0, processor->op_type=1 group->op_desc->index=6
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.576498] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.576510] group->op_desc->consumers[1].index=10
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.577086] group->op_desc->consumers[2].index=7
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.577244] group->op_desc->consumers[3].index=-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.577360] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.577868] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.578336] Enter: dla_op_programmed
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.578575] Update dependency operation index 10 ROI 0 DEP_COUNT=3
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.579078] Update dependency operation index 7 ROI 0 DEP_COUNT=1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.579569] enable SDP in dla_update_dependency as depdency are resolved
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.580058] Enter: dla_enable_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.580176] exit dla_enable_operation without actual enable due to processor hasn't been programmed
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.580736] Exit: dla_enable_operation status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.580872] Exit: dla_op_programmed
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.581334] Exit: dla_program_operation status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.581473] Exit: dla_submit_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.582093] Exit: dla_dequeue_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.582192] Exit:dla_op_completion processor Convolution group0 status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.582299] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.582397] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.582499] Handle op complete event, processor SDP group 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.582660] Enter:dla_op_completion processor SDP group0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.582877] Completed SDP operation index 1 ROI 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.583738] Update dependency operation index 2 ROI 0 DEP_COUNT=1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.584446] enable PDP in dla_update_dependency as depdency are resolved
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.585068] Enter: dla_enable_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.585206] Enable PDP operation index 2 ROI 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.585366] group id 0 rdma id 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.586134] rdma needed 1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.586886] Enter: dla_op_enabled
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.587000] Exit: dla_op_enabled
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.587127] Exit: dla_enable_operation status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.587293] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_update_consumers 640 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.587316] op->index=1 group->fused_parent->index=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.588001] group->fused_parent->dependency_cout=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.588263] event = 1 op->fused_parent.event=3 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.588422] 2 HWLs done, totally 12 layers
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.589130] Enter: dla_free_op_desc op desc index 0 ROI 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.589347] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.589358] write op_desc  index = 0 roi_index = 0 op_type=1 dependency_count=0 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.590338] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.591042] consumer[1] index=3 event=2 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.591170] consumer[2] index=1 event=2 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.591835] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.592478] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.592633] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.593147] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.593147] 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.593943] Exit: dla_free_op_desc
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.594029] Enter: dla_dequeue_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.594170] Dequeue op from SDP processor, index=7 ROI=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.594422] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.594435] desc_cache[2][2]->index = 7 desc_cache[2][2]->roi_index=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.595586] Enter: dla_submit_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.595712] Prepare SDP operation index 7 ROI 0 dep_count 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.596220] Enter: dla_prepare_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.603905] processor:SDP group:0, rdma_group:0 available
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.604091] Enter: dla_read_config
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.604308] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.604319] roi_index=0 index=7 sizeof(union dla_surface_container)=644 base=4508
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.604620] group->id=0 processor->op_type=2
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.605358] Exit: dla_read_config
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.605751] Exit: dla_prepare_operation status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.606445] Enter: dla_program_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.606538] Program SDP operation index 7 ROI 0 Group[0]
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.608125] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.608136] phys_addr = ffff80003ca2f748
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.608455] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.608621] phys_addr = ffff80003ca2f730
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.616125] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/sdp.c processor_sdp_program 731 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.616272] sdp x1_addr=00000000c000f000
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.616695] sdp dst_addr=00000000c0009000
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.616825] no desc get due to index==-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.617177] no desc get due to index==-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.617982] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.618317] i = 3 sizeof(struct dla_common_op_desc) = 36  index = 8 op_base =  288 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.618532] task->dependency_graph_addr =  20 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.619239] no desc get due to index==-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.619447] no desc get due to index==-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.619598] no desc get due to index==-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.620243] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.620256] desc_cache[1][2]->index = 6 desc_cache[1][2]->roi_index=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.621688] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.622375] group->roi_index=0, group->id=0, processor->op_type=2 group->op_desc->index=7
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.623048] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.623058] group->op_desc->consumers[1].index=-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.623238] group->op_desc->consumers[2].index=8
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.623381] group->op_desc->consumers[3].index=-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.623983] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.624116] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.624866] group->fused_parent->index=6
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.625951] Enter: dla_op_programmed
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.626209] Exit: dla_op_programmed
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.626277] Exit: dla_program_operation status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.626979] Enter: dla_enable_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.627124] Enable SDP operation index 7 ROI 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.628391] Enter: dla_op_enabled
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.628540] Update dependency operation index 6 ROI 0 DEP_COUNT=2
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.629070] Exit: dla_op_enabled
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.629194] Exit: dla_enable_operation status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.629637] Exit: dla_submit_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.629809] Exit: dla_dequeue_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.630310] Enter: dla_free_op_desc op desc index 1 ROI 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.630815] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.630826] write op_desc  index = 1 roi_index = 0 op_type=2 dependency_count=0 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.631418] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.631629] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.632165] consumer[2] index=4 event=2 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.632300] consumer[3] index=2 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.632821] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.632917] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.633028] fused_parent index=0 event=3 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.633028] 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.633238] Exit: dla_free_op_desc
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.633369] Exit:dla_op_completion processor SDP group0 status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.633933] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.634103] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.634599] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.634759] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.634910] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.635373] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.635523] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.774347] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.774736] Enter: dla_isr_handler, reg:10, mask:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.775814] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=10
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.777495] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.780030] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.780278] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.780409] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.780989] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.781550] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.781656] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.781754] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.781942] Handle op complete event, processor PDP group 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.782662] Enter:dla_op_completion processor PDP group0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.783297] Completed PDP operation index 2 ROI 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.783937] Update dependency operation index 3 ROI 0 DEP_COUNT=1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.784476] enable Convolution in dla_update_dependency as depdency are resolved
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.784715] Enter: dla_enable_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.784932] Enable Convolution operation index 3 ROI 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.788256] Enter: dla_op_enabled
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.788430] Exit: dla_op_enabled
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.788551] Exit: dla_enable_operation status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.788679] 3 HWLs done, totally 12 layers
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.788803] Enter: dla_dequeue_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.788948] exit PDP as there's no further operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.789720] Exit: dla_dequeue_operation
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.790278] Enter: dla_free_op_desc op desc index 2 ROI 0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.790491] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.790504] write op_desc  index = 2 roi_index = 0 op_type=3 dependency_count=0 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.791511] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.791662] consumer[1] index=3 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.791744] consumer[2] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.791854] consumer[3] index=5 event=2 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.791985] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.792128] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.792709] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.792709] 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.793438] Exit: dla_free_op_desc
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.793573] Exit:dla_op_completion processor PDP group0 status=0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.794086] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.794269] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.794761] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.795283] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.795432] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.alert kernel: [14566.944839] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.945130] Enter: dla_isr_handler, reg:20000, mask:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.945884] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=20000
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.947441] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.949665] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.950155] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.950380] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.950503] Handle cdma data done event, processor Convolution group 1
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.950650] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.950769] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.951441] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.951556] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.952056] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.952196] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.952731] Exit:dla_handle_events, ret:0
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.952873] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:15 nvdla user.warn kernel: [14566.952989] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.070055] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.070463] Enter: dla_isr_handler, reg:280002, mask:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.071276] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=280002
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.072732] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.076069] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.076264] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.076452] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.076612] Handle cdma weight done event, processor Convolution group 1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.077282] Handle op complete event, processor Convolution group 1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.077884] Enter:dla_op_completion processor Convolution group1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.078093] Completed Convolution operation index 3 ROI 0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.078222] 4 HWLs done, totally 12 layers
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.078383] Enter: dla_dequeue_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.078510] Dequeue op from Convolution processor, index=10 ROI=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.078656] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.078669] desc_cache[1][3]->index = 10 desc_cache[1][3]->roi_index=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.079117] Enter: dla_submit_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.079248] Prepare Convolution operation index 10 ROI 0 dep_count 2
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.079421] Enter: dla_prepare_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.079863] processor:Convolution group:1, rdma_group:0 available
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.080085] Enter: dla_read_config
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.080415] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.080438] roi_index=0 index=10 sizeof(union dla_surface_container)=644 base=6440
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.080805] group->id=1 processor->op_type=1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.081185] Exit: dla_read_config
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.081577] Exit: dla_prepare_operation status=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.081703] Enter: dla_program_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.081822] Program Convolution operation index 10 ROI 0 Group[1]
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.082755] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.082768] phys_addr = ffff80003ca2fa08
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.083055] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.083151] phys_addr = ffff80003ca2fa20
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.091242] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/conv.c processor_conv_program 763 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.091531] conv weight_address=00000000c001a000 input_address=00000000c000b000 output_address=          (null)
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.091923] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.092509] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.092705] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.093180] i = 0 sizeof(struct dla_common_op_desc) = 36  index = 11 op_base =  396 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.093385] task->dependency_graph_addr =  20 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.093467] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.093649] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.093864] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.094071] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.094198] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.094580] group->roi_index=0, group->id=1, processor->op_type=1 group->op_desc->index=10
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.094825] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.094833] group->op_desc->consumers[1].index=-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.094978] group->op_desc->consumers[2].index=11
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.095175] group->op_desc->consumers[3].index=-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.095343] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.095472] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.095588] Enter: dla_op_programmed
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.095774] Update dependency operation index 11 ROI 0 DEP_COUNT=2
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.095878] Exit: dla_op_programmed
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.096080] Exit: dla_program_operation status=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.096242] Exit: dla_submit_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.096375] Exit: dla_dequeue_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.096480] Exit:dla_op_completion processor Convolution group1 status=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.096623] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.096751] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.096879] Handle op complete event, processor SDP group 1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.097023] Enter:dla_op_completion processor SDP group1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.097162] Completed SDP operation index 4 ROI 0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.097375] Update dependency operation index 5 ROI 0 DEP_COUNT=1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.097563] enable PDP in dla_update_dependency as depdency are resolved
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.097808] Enter: dla_enable_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.098103] Enable PDP operation index 5 ROI 0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.098340] group id 1 rdma id 1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.098931] rdma needed 1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.099399] Enter: dla_op_enabled
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.099635] Exit: dla_op_enabled
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.099730] Exit: dla_enable_operation status=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.099822] 5 HWLs done, totally 12 layers
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.099977] Enter: dla_free_op_desc op desc index 3 ROI 0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.100159] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.100173] write op_desc  index = 3 roi_index = 0 op_type=1 dependency_count=0 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.100468] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.100668] consumer[1] index=6 event=2 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.100798] consumer[2] index=4 event=2 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.100940] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.101085] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.101230] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.101370] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.101370] 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.101677] Exit: dla_free_op_desc
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.101787] Enter: dla_dequeue_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.101923] Dequeue op from SDP processor, index=8 ROI=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.102181] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.102192] desc_cache[2][3]->index = 8 desc_cache[2][3]->roi_index=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.102625] Enter: dla_submit_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.102780] Prepare SDP operation index 8 ROI 0 dep_count 1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.102951] Enter: dla_prepare_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.105239] processor:SDP group:1, rdma_group:1 available
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.105421] Enter: dla_read_config
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.105588] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.105598] roi_index=0 index=8 sizeof(union dla_surface_container)=644 base=5152
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.105871] group->id=1 processor->op_type=2
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.106061] Exit: dla_read_config
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.106227] Exit: dla_prepare_operation status=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.106423] Enter: dla_program_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.106519] Program SDP operation index 8 ROI 0 Group[1]
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.108395] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.108413] phys_addr = ffff80003ca2f728
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.108668] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.108852] phys_addr = ffff80003ca2f748
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.109318] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.109499] phys_addr = ffff80003ca2f730
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.116932] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/sdp.c processor_sdp_program 731 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.117128] sdp src_addr=00000000c0009000
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.117488] sdp x1_addr=00000000c0018000
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.117669] sdp dst_addr=00000000c000a000
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.117816] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.118069] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.118184] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 129 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.118450] i = 4 sizeof(struct dla_common_op_desc) = 36  index = 9 op_base =  324 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.118740] task->dependency_graph_addr =  20 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.118876] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.119013] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.119139] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.119262] no desc get due to index==-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.119473] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.119890] group->roi_index=0, group->id=1, processor->op_type=2 group->op_desc->index=8
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.120163] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.120171] group->op_desc->consumers[1].index=-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.120284] group->op_desc->consumers[2].index=9
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.120395] group->op_desc->consumers[3].index=-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.120543] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.120723] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.120868] Enter: dla_op_programmed
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.121122] Exit: dla_op_programmed
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.121252] Exit: dla_program_operation status=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.121379] Exit: dla_submit_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.121496] Exit: dla_dequeue_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.121740] Enter: dla_free_op_desc op desc index 4 ROI 0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.122084] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.122105] write op_desc  index = 4 roi_index = 0 op_type=2 dependency_count=0 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.122534] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.122856] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.123166] consumer[2] index=7 event=2 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.123461] consumer[3] index=5 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.123743] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.123874] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.124021] fused_parent index=3 event=3 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.124021] 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.124415] Exit: dla_free_op_desc
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.124543] Exit:dla_op_completion processor SDP group1 status=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.124756] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.125024] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.125157] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.125343] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.125514] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.125704] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.125825] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.alert kernel: [14576.203356] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.203687] Enter: dla_isr_handler, reg:20, mask:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.204477] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=20
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.205001] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.205861] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.206077] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.206250] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.206401] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.206488] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.206685] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.206839] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.207013] Handle op complete event, processor PDP group 1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.207210] Enter:dla_op_completion processor PDP group1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.207370] Completed PDP operation index 5 ROI 0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.207474] Update dependency operation index 6 ROI 0 DEP_COUNT=1
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.207572] enable Convolution in dla_update_dependency as depdency are resolved
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.207736] Enter: dla_enable_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.207877] Enable Convolution operation index 6 ROI 0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.209709] Enter: dla_op_enabled
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.209929] Exit: dla_op_enabled
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.210015] Exit: dla_enable_operation status=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.210100] 6 HWLs done, totally 12 layers
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.210176] Enter: dla_dequeue_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.210331] exit PDP as there's no further operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.210483] Exit: dla_dequeue_operation
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.210600] Enter: dla_free_op_desc op desc index 5 ROI 0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.210805] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.210817] write op_desc  index = 5 roi_index = 0 op_type=3 dependency_count=0 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.211134] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.211394] consumer[1] index=6 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.211567] consumer[2] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.211775] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.211962] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.212196] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.212333] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.212333] 
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.212751] Exit: dla_free_op_desc
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.212975] Exit:dla_op_completion processor PDP group1 status=0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.213142] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.213325] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.213512] Exit:dla_handle_events, ret:0
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.213635] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:24 nvdla user.warn kernel: [14576.213792] Exit:dla_handle_events, ret:0
+Oct 15 06:21:25 nvdla user.alert kernel: [14576.338952] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.339314] Enter: dla_isr_handler, reg:10000, mask:0
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.339956] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=10000
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.340383] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.342626] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.342772] Exit:dla_handle_events, ret:0
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.342874] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.343163] Handle cdma data done event, processor Convolution group 0
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.343312] Exit:dla_handle_events, ret:0
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.343455] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.343620] Exit:dla_handle_events, ret:0
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.343795] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.344003] Exit:dla_handle_events, ret:0
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.344177] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.344291] Exit:dla_handle_events, ret:0
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.344399] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:25 nvdla user.warn kernel: [14576.344482] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.474646] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.474977] Enter: dla_isr_handler, reg:140001, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.475760] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=140001
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.476144] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.477864] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.478059] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.478265] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.478429] Handle cdma weight done event, processor Convolution group 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.478600] Handle op complete event, processor Convolution group 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.478750] Enter:dla_op_completion processor Convolution group0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.478901] Completed Convolution operation index 6 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.479192] 7 HWLs done, totally 12 layers
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.479319] Enter: dla_dequeue_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.479390] exit Convolution as there's no further operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.479497] Exit: dla_dequeue_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.479590] Exit:dla_op_completion processor Convolution group0 status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.479928] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.480113] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.480194] Handle op complete event, processor SDP group 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.480389] Enter:dla_op_completion processor SDP group0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.480570] Completed SDP operation index 7 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.480776] Update dependency operation index 8 ROI 0 DEP_COUNT=1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.481078] enable SDP in dla_update_dependency as depdency are resolved
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.481223] Enter: dla_enable_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.481351] Enable SDP operation index 8 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.482659] Enter: dla_op_enabled
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.482855] Exit: dla_op_enabled
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.483026] Exit: dla_enable_operation status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.483204] 8 HWLs done, totally 12 layers
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.483296] Enter: dla_free_op_desc op desc index 6 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.483461] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.483474] write op_desc  index = 6 roi_index = 0 op_type=1 dependency_count=0 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.483843] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.484100] consumer[1] index=10 event=2 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.484259] consumer[2] index=7 event=2 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.484432] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.484595] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.484674] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.484752] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.484752] 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.485120] Exit: dla_free_op_desc
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.485244] Enter: dla_dequeue_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.485317] Dequeue op from SDP processor, index=9 ROI=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.485407] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.485417] desc_cache[2][4]->index = 9 desc_cache[2][4]->roi_index=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.486056] Enter: dla_submit_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.486254] Prepare SDP operation index 9 ROI 0 dep_count 1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.486369] Enter: dla_prepare_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.488329] processor:SDP group:0, rdma_group:0 available
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.488473] Enter: dla_read_config
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.488632] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.488644] roi_index=0 index=9 sizeof(union dla_surface_container)=644 base=5796
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.488854] group->id=0 processor->op_type=2
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.489005] Exit: dla_read_config
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.489157] Exit: dla_prepare_operation status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.489300] Enter: dla_program_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.489394] Program SDP operation index 9 ROI 0 Group[0]
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.490562] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.490578] phys_addr = ffff80003ca2f728
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.491115] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.491418] phys_addr = ffff80003ca2f748
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.500552] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/sdp.c processor_sdp_program 731 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.500746] sdp src_addr=00000000c000a000
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.501052] sdp dst_addr=00000000c000b000
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.501222] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.501447] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.501458] desc_cache[1][3]->index = 10 desc_cache[1][3]->roi_index=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.501832] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.501843] desc_cache[2][0]->index = 11 desc_cache[2][0]->roi_index=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.502679] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.502833] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.502981] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.503080] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.503199] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.503520] group->roi_index=0, group->id=0, processor->op_type=2 group->op_desc->index=9
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.503728] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.503735] group->op_desc->consumers[1].index=10
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.503833] group->op_desc->consumers[2].index=11
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.503936] group->op_desc->consumers[3].index=-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.504087] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.504174] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.504272] Enter: dla_op_programmed
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.504488] Update dependency operation index 11 ROI 0 DEP_COUNT=1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.504603] enable SDP in dla_update_dependency as depdency are resolved
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.504739] Enter: dla_enable_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.504873] exit dla_enable_operation without actual enable due to processor hasn't been programmed
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.505160] Exit: dla_enable_operation status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.505263] Exit: dla_op_programmed
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.505345] Exit: dla_program_operation status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.505424] Exit: dla_submit_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.505494] Exit: dla_dequeue_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.505597] Enter: dla_free_op_desc op desc index 7 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.505797] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.505807] write op_desc  index = 7 roi_index = 0 op_type=2 dependency_count=0 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.506075] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.506253] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.506469] consumer[2] index=8 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.506655] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.506817] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.507035] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.507202] fused_parent index=6 event=3 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.507202] 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.507546] Exit: dla_free_op_desc
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.507670] Exit:dla_op_completion processor SDP group0 status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.507833] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.507999] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.508117] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.508219] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.508346] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.508533] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.508847] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.635617] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.635974] Enter: dla_isr_handler, reg:2, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.636686] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=2
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.637061] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.637789] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.637907] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.638008] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.638244] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.638379] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.638553] Handle op complete event, processor SDP group 1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.638800] Enter:dla_op_completion processor SDP group1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.638986] Completed SDP operation index 8 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.639104] Update dependency operation index 9 ROI 0 DEP_COUNT=1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.639239] enable SDP in dla_update_dependency as depdency are resolved
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.639509] Enter: dla_enable_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.639599] Enable SDP operation index 9 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.641151] Enter: dla_op_enabled
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.641314] Exit: dla_op_enabled
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.641449] Exit: dla_enable_operation status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.641670] 9 HWLs done, totally 12 layers
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.641808] Enter: dla_dequeue_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.641991] Dequeue op from SDP processor, index=11 ROI=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.642197] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.642224] desc_cache[2][0]->index = 11 desc_cache[2][0]->roi_index=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.642742] Enter: dla_submit_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.642988] Prepare SDP operation index 11 ROI 0 dep_count 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.643157] Enter: dla_prepare_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.643998] processor:SDP group:1, rdma_group:1 available
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.644208] Enter: dla_read_config
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.644439] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_read_config 172 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.644451] roi_index=0 index=11 sizeof(union dla_surface_container)=644 base=7084
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.644929] group->id=1 processor->op_type=2
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.645212] Exit: dla_read_config
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.645566] Exit: dla_prepare_operation status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.645786] Enter: dla_program_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.645945] Program SDP operation index 11 ROI 0 Group[1]
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.649346] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.649388] phys_addr = ffff80003ca2f748
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.649840] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c dla_read_dma_address 192 
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.649991] phys_addr = ffff80003ca2f730
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.664692] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/sdp.c processor_sdp_program 731 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.664839] sdp x1_addr=00000000c0019000
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.665212] sdp dst_addr=00000000c000d000
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.665332] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.665628] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.665791] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.665954] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.666135] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.666279] no desc get due to index==-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.666422] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_get_op_desc 99 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.666433] desc_cache[1][3]->index = 10 desc_cache[1][3]->roi_index=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.667089] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/scheduler.c dla_program_operation 313 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.667405] group->roi_index=0, group->id=1, processor->op_type=2 group->op_desc->index=11
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.667648] group->op_desc->consumers[0].index=-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.667667] group->op_desc->consumers[1].index=-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.667847] group->op_desc->consumers[2].index=-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.668064] group->op_desc->consumers[3].index=-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.668245] group->op_desc->consumers[4].index=-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.668454] group->op_desc->consumers[5].index=-1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.668705] group->fused_parent->index=10
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.668884] Enter: dla_op_programmed
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.669302] Exit: dla_op_programmed
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.669415] Exit: dla_program_operation status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.669615] Enter: dla_enable_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.669771] Enable SDP operation index 11 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.671719] Enter: dla_op_enabled
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.671905] Update dependency operation index 10 ROI 0 DEP_COUNT=2
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.672114] Exit: dla_op_enabled
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.672259] Exit: dla_enable_operation status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.672503] Exit: dla_submit_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.672681] Exit: dla_dequeue_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.673022] Enter: dla_free_op_desc op desc index 8 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.673436] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.673478] write op_desc  index = 8 roi_index = 0 op_type=2 dependency_count=0 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.674019] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.674314] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.674454] consumer[2] index=9 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.674594] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.674877] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.675110] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.675270] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.675270] 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.675861] Exit: dla_free_op_desc
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.675965] Exit:dla_op_completion processor SDP group1 status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.676155] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.676244] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.676328] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.676439] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.676620] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.676778] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.676874] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.697914] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.698330] Enter: dla_isr_handler, reg:1, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.699656] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.700413] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.701837] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.702079] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.702237] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.702537] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.702610] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.702691] Handle op complete event, processor SDP group 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.702816] Enter:dla_op_completion processor SDP group0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.702906] Completed SDP operation index 9 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.703106] Update dependency operation index 10 ROI 0 DEP_COUNT=1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.703362] enable Convolution in dla_update_dependency as depdency are resolved
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.703966] Enter: dla_enable_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.704401] Enable Convolution operation index 10 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.706582] Enter: dla_op_enabled
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.706710] Exit: dla_op_enabled
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.706868] Exit: dla_enable_operation status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.707039] 10 HWLs done, totally 12 layers
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.707216] Enter: dla_dequeue_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.707356] exit SDP as there's no further operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.707531] Exit: dla_dequeue_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.707705] Enter: dla_free_op_desc op desc index 9 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.707949] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.707961] write op_desc  index = 9 roi_index = 0 op_type=2 dependency_count=0 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.708212] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.708528] consumer[1] index=10 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.708820] consumer[2] index=11 event=2 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.709024] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.709178] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.709291] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.709474] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.709474] 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.710062] Exit: dla_free_op_desc
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.710290] Exit:dla_op_completion processor SDP group0 status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.710618] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.711078] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.711399] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.711574] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.711754] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.711934] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.712118] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.785982] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.786284] Enter: dla_isr_handler, reg:20000, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.786969] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=20000
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.787269] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.788508] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.788669] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.788766] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.788860] Handle cdma data done event, processor Convolution group 1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.789083] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.789283] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.789438] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.789577] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.789809] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.790041] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.790235] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.790372] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.790502] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.836725] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.837127] Enter: dla_isr_handler, reg:80000, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.837842] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=80000
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.838421] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.839768] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.839996] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.840143] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.840254] Handle cdma weight done event, processor Convolution group 1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.840382] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.840526] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.840744] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.840902] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.841019] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.841180] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.841443] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.841589] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.841810] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.alert kernel: [14581.851274] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/nvdla_core_callbacks.c nvdla_engine_isr 159 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.851613] Enter: dla_isr_handler, reg:200002, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.852280] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/engine_isr.c dla_isr_handler 145 reg=200002
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.852665] Exit: dla_isr_handler, reg:0, mask:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.854098] Enter:dla_handle_events, processor:BDMA
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.854388] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.854569] Enter:dla_handle_events, processor:Convolution
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.854677] Handle op complete event, processor Convolution group 1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.854796] Enter:dla_op_completion processor Convolution group1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.854895] Completed Convolution operation index 10 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.855045] 11 HWLs done, totally 12 layers
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.855206] Enter: dla_dequeue_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.855344] exit Convolution as there's no further operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.855561] Exit: dla_dequeue_operation
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.855723] Exit:dla_op_completion processor Convolution group1 status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.855931] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.856110] Enter:dla_handle_events, processor:SDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.856241] Handle op complete event, processor SDP group 1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.856378] Enter:dla_op_completion processor SDP group1
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.856510] Completed SDP operation index 11 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.856616] 12 HWLs done, totally 12 layers
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.856750] Enter: dla_free_op_desc op desc index 10 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.856997] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.857027] write op_desc  index = 10 roi_index = 0 op_type=1 dependency_count=0 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.857653] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.858124] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.858492] consumer[2] index=11 event=2 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.858736] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.858857] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.859052] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.859183] fused_parent index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.859183] 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.859632] Exit: dla_free_op_desc
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.859808] Enter: dla_free_op_desc op desc index 11 ROI 0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.860074] xiaorz /home/dp3/002_source_file/001_NVDLA/sw_for_RD/sw_with_compiler/kmd/port/linux/../../firmware/cache.c dla_free_op_desc 223 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.860084] write op_desc  index = 11 roi_index = 0 op_type=2 dependency_count=0 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.860415] consumer[0] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.860656] consumer[1] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.860767] consumer[2] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.860935] consumer[3] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.861052] consumer[4] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.861207] consumer[5] index=-1 event=1 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.861318] fused_parent index=10 event=3 res=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.861318] 
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.861781] Exit: dla_free_op_desc
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.861896] Exit:dla_op_completion processor SDP group1 status=0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.862131] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.862260] Enter:dla_handle_events, processor:PDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.862364] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.862601] Enter:dla_handle_events, processor:CDP
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.862760] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.862928] Enter:dla_handle_events, processor:RUBIK
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.863188] Exit:dla_handle_events, ret:0
+Oct 15 06:21:30 nvdla user.warn kernel: [14581.868902] reset engine done
