@@ -59,9 +59,13 @@ void gen_dla_global_var_file (char *file_name, dla_network_prop* p_network_prop,
     fprintf (f_out, "\t%s[%d].size = %d + %d;\n", DLA_MEMORY_D_NAME, i, memory_d_array[i].aligned_size, MEMORY_ALIGNMENT);
     fprintf (f_out, "\t%s[%d].phy_addr = (unsigned int) malloc (%d);\n", DLA_MEMORY_D_NAME, i,
 	     memory_d_array[i].aligned_size + MEMORY_ALIGNMENT);
+    fprintf (f_out, "\tif(%s[%d].phy_addr == NULL) {\n", DLA_MEMORY_D_NAME, i);
+    fprintf (f_out, "\t\tprintf(\"%s[%d] malloc failed\\n\");\n", DLA_MEMORY_D_NAME, i);
+    fprintf (f_out, "\t}\n");
     fprintf (f_out, "\t%s[%d].aligned_phy_addr = (%s[%d].phy_addr + 0x%x -1 ) & (~(0x%x-1));\n",
 	     DLA_MEMORY_D_NAME, i, DLA_MEMORY_D_NAME, i, MEMORY_ALIGNMENT, MEMORY_ALIGNMENT);
     fprintf (f_out, "\t%s[%d].aligned_size = %d;\n", DLA_MEMORY_D_NAME, i, memory_d_array[i].aligned_size);
+    
   }
 
   //split line
@@ -77,6 +81,9 @@ void gen_dla_global_var_file (char *file_name, dla_network_prop* p_network_prop,
     fprintf (f_out, "\t%s[%d].size = %d + %d;\n", DLA_BATCH_INPUT, i, memory_d_array[p_network_prop->input_memory_id].aligned_size, MEMORY_ALIGNMENT);
     fprintf (f_out, "\t%s[%d].phy_addr = (unsigned int) malloc (%d);\n", DLA_BATCH_INPUT, i,
 	     memory_d_array[p_network_prop->input_memory_id].aligned_size + MEMORY_ALIGNMENT);
+    fprintf (f_out, "\tif(%s[%d].phy_addr == NULL) {\n", DLA_BATCH_INPUT, i);
+    fprintf (f_out, "\t\tprintf(\"%s[%d] malloc failed\\n\");\n", DLA_BATCH_INPUT, i);
+    fprintf (f_out, "\t}\n");
     fprintf (f_out, "\t%s[%d].aligned_phy_addr = (%s[%d].phy_addr + 0x%x -1 ) & (~(0x%x-1));\n",
 	     DLA_BATCH_INPUT, i, DLA_BATCH_INPUT, i, MEMORY_ALIGNMENT, MEMORY_ALIGNMENT);
     fprintf (f_out, "\t%s[%d].aligned_size = %d;\n", DLA_BATCH_INPUT, i, memory_d_array[p_network_prop->input_memory_id].aligned_size);
@@ -88,6 +95,10 @@ void gen_dla_global_var_file (char *file_name, dla_network_prop* p_network_prop,
     fprintf (f_out, "\t%s[%d].size = %d + %d;\n", DLA_BATCH_OUTPUT, i, memory_d_array[p_network_prop->output_memory_id].aligned_size, MEMORY_ALIGNMENT);
     fprintf (f_out, "\t%s[%d].phy_addr = (unsigned int) malloc (%d);\n", DLA_BATCH_OUTPUT, i,
 	     memory_d_array[p_network_prop->output_memory_id].aligned_size + MEMORY_ALIGNMENT);
+    fprintf (f_out, "\tif(%s[%d].phy_addr == NULL) {\n", DLA_BATCH_OUTPUT, i);
+    fprintf (f_out, "\t\tprintf(\"%s[%d] malloc failed\\n\");\n", DLA_BATCH_OUTPUT, i);
+    fprintf (f_out, "\t}\n");
+
     fprintf (f_out, "\t%s[%d].aligned_phy_addr = (%s[%d].phy_addr + 0x%x -1 ) & (~(0x%x-1));\n",
 	     DLA_BATCH_OUTPUT, i, DLA_BATCH_OUTPUT, i, MEMORY_ALIGNMENT, MEMORY_ALIGNMENT);
     fprintf (f_out, "\t%s[%d].aligned_size = %d;\n", DLA_BATCH_OUTPUT, i, memory_d_array[p_network_prop->output_memory_id].aligned_size);
