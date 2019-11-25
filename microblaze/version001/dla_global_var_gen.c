@@ -65,12 +65,12 @@ void gen_dla_global_var_file (char *file_name, dla_network_prop* p_network_prop,
     fprintf (f_out, "\t%s[%d].aligned_phy_addr = (%s[%d].phy_addr + 0x%x -1 ) & (~(0x%x-1));\n",
 	     DLA_MEMORY_D_NAME, i, DLA_MEMORY_D_NAME, i, MEMORY_ALIGNMENT, MEMORY_ALIGNMENT);
     fprintf (f_out, "\t%s[%d].aligned_size = %d;\n", DLA_MEMORY_D_NAME, i, memory_d_array[i].aligned_size);
-    
+    fprintf (f_out, "\t%s[%d].config = %d;\n", DLA_MEMORY_D_NAME, i, memory_d_array[i].config);
   }
 
   //split line
   fprintf (f_out, "//////////////////////////////////\n\n");
-
+  fprintf (f_out, "\t%s = %d;\n", DLA_BATCH_NUM, batch_num);
   fprintf (f_out, "\t%s = (memory_d*) malloc (sizeof (memory_d) * %d);\n", DLA_BATCH_INPUT, batch_num);
   fprintf (f_out, "\t%s = (memory_d*) malloc (sizeof (memory_d) * %d);\n", DLA_BATCH_OUTPUT, batch_num);
   //split line
@@ -87,7 +87,7 @@ void gen_dla_global_var_file (char *file_name, dla_network_prop* p_network_prop,
     fprintf (f_out, "\t%s[%d].aligned_phy_addr = (%s[%d].phy_addr + 0x%x -1 ) & (~(0x%x-1));\n",
 	     DLA_BATCH_INPUT, i, DLA_BATCH_INPUT, i, MEMORY_ALIGNMENT, MEMORY_ALIGNMENT);
     fprintf (f_out, "\t%s[%d].aligned_size = %d;\n", DLA_BATCH_INPUT, i, memory_d_array[p_network_prop->input_memory_id].aligned_size);
-
+    fprintf (f_out, "\t%s[%d].config = %d;\n", DLA_BATCH_INPUT, i, 1);
   }
 
   for (int i = 0; i < batch_num; i++) {
@@ -102,7 +102,7 @@ void gen_dla_global_var_file (char *file_name, dla_network_prop* p_network_prop,
     fprintf (f_out, "\t%s[%d].aligned_phy_addr = (%s[%d].phy_addr + 0x%x -1 ) & (~(0x%x-1));\n",
 	     DLA_BATCH_OUTPUT, i, DLA_BATCH_OUTPUT, i, MEMORY_ALIGNMENT, MEMORY_ALIGNMENT);
     fprintf (f_out, "\t%s[%d].aligned_size = %d;\n", DLA_BATCH_OUTPUT, i, memory_d_array[p_network_prop->output_memory_id].aligned_size);
-
+    fprintf (f_out, "\t%s[%d].config = %d;\n", DLA_BATCH_OUTPUT, i, 0);
   }
 
   
@@ -148,9 +148,11 @@ int main () {
   memory_array[0].memory_id = 0;
   memory_array[0].size = 10;
   memory_array[0].aligned_size = 10;
+  memory_array[0].config = 1;
   memory_array[1].memory_id = 1;
   memory_array[1].size = 12;
   memory_array[1].aligned_size = 4096;
+  memory_array[1].config = 1;
   int batch_num = 10;
 
   dla_network_prop np;

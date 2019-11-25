@@ -26,6 +26,7 @@ void init_global_var() {
 	}
 	global_memory_d_array[0].aligned_phy_addr = (global_memory_d_array[0].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_memory_d_array[0].aligned_size = 10;
+	global_memory_d_array[0].config = 1;
 	global_memory_d_array[1].memory_id = 1;
 	global_memory_d_array[1].size = 4096 + 4096;
 	global_memory_d_array[1].phy_addr = (unsigned int) malloc (8192);
@@ -34,8 +35,10 @@ void init_global_var() {
 	}
 	global_memory_d_array[1].aligned_phy_addr = (global_memory_d_array[1].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_memory_d_array[1].aligned_size = 4096;
+	global_memory_d_array[1].config = 1;
 //////////////////////////////////
 
+	global_batch_input_num = 10;
 	global_batch_input_array = (memory_d*) malloc (sizeof (memory_d) * 10);
 	global_batch_output_array = (memory_d*) malloc (sizeof (memory_d) * 10);
 //////////////////////////////////
@@ -48,6 +51,7 @@ void init_global_var() {
 	}
 	global_batch_input_array[0].aligned_phy_addr = (global_batch_input_array[0].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_input_array[0].aligned_size = 10;
+	global_batch_input_array[0].config = 1;
 	global_batch_input_array[1].memory_id = 1;
 	global_batch_input_array[1].size = 10 + 4096;
 	global_batch_input_array[1].phy_addr = (unsigned int) malloc (4106);
@@ -56,6 +60,7 @@ void init_global_var() {
 	}
 	global_batch_input_array[1].aligned_phy_addr = (global_batch_input_array[1].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_input_array[1].aligned_size = 10;
+	global_batch_input_array[1].config = 1;
 	global_batch_input_array[2].memory_id = 2;
 	global_batch_input_array[2].size = 10 + 4096;
 	global_batch_input_array[2].phy_addr = (unsigned int) malloc (4106);
@@ -64,6 +69,7 @@ void init_global_var() {
 	}
 	global_batch_input_array[2].aligned_phy_addr = (global_batch_input_array[2].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_input_array[2].aligned_size = 10;
+	global_batch_input_array[2].config = 1;
 	global_batch_input_array[3].memory_id = 3;
 	global_batch_input_array[3].size = 10 + 4096;
 	global_batch_input_array[3].phy_addr = (unsigned int) malloc (4106);
@@ -72,6 +78,7 @@ void init_global_var() {
 	}
 	global_batch_input_array[3].aligned_phy_addr = (global_batch_input_array[3].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_input_array[3].aligned_size = 10;
+	global_batch_input_array[3].config = 1;
 	global_batch_input_array[4].memory_id = 4;
 	global_batch_input_array[4].size = 10 + 4096;
 	global_batch_input_array[4].phy_addr = (unsigned int) malloc (4106);
@@ -80,6 +87,7 @@ void init_global_var() {
 	}
 	global_batch_input_array[4].aligned_phy_addr = (global_batch_input_array[4].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_input_array[4].aligned_size = 10;
+	global_batch_input_array[4].config = 1;
 	global_batch_input_array[5].memory_id = 5;
 	global_batch_input_array[5].size = 10 + 4096;
 	global_batch_input_array[5].phy_addr = (unsigned int) malloc (4106);
@@ -88,6 +96,7 @@ void init_global_var() {
 	}
 	global_batch_input_array[5].aligned_phy_addr = (global_batch_input_array[5].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_input_array[5].aligned_size = 10;
+	global_batch_input_array[5].config = 1;
 	global_batch_input_array[6].memory_id = 6;
 	global_batch_input_array[6].size = 10 + 4096;
 	global_batch_input_array[6].phy_addr = (unsigned int) malloc (4106);
@@ -96,6 +105,7 @@ void init_global_var() {
 	}
 	global_batch_input_array[6].aligned_phy_addr = (global_batch_input_array[6].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_input_array[6].aligned_size = 10;
+	global_batch_input_array[6].config = 1;
 	global_batch_input_array[7].memory_id = 7;
 	global_batch_input_array[7].size = 10 + 4096;
 	global_batch_input_array[7].phy_addr = (unsigned int) malloc (4106);
@@ -104,6 +114,7 @@ void init_global_var() {
 	}
 	global_batch_input_array[7].aligned_phy_addr = (global_batch_input_array[7].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_input_array[7].aligned_size = 10;
+	global_batch_input_array[7].config = 1;
 	global_batch_input_array[8].memory_id = 8;
 	global_batch_input_array[8].size = 10 + 4096;
 	global_batch_input_array[8].phy_addr = (unsigned int) malloc (4106);
@@ -112,6 +123,7 @@ void init_global_var() {
 	}
 	global_batch_input_array[8].aligned_phy_addr = (global_batch_input_array[8].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_input_array[8].aligned_size = 10;
+	global_batch_input_array[8].config = 1;
 	global_batch_input_array[9].memory_id = 9;
 	global_batch_input_array[9].size = 10 + 4096;
 	global_batch_input_array[9].phy_addr = (unsigned int) malloc (4106);
@@ -120,6 +132,7 @@ void init_global_var() {
 	}
 	global_batch_input_array[9].aligned_phy_addr = (global_batch_input_array[9].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_input_array[9].aligned_size = 10;
+	global_batch_input_array[9].config = 1;
 	global_batch_output_array[0].memory_id = 0;
 	global_batch_output_array[0].size = 4096 + 4096;
 	global_batch_output_array[0].phy_addr = (unsigned int) malloc (8192);
@@ -128,6 +141,7 @@ void init_global_var() {
 	}
 	global_batch_output_array[0].aligned_phy_addr = (global_batch_output_array[0].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_output_array[0].aligned_size = 4096;
+	global_batch_output_array[0].config = 0;
 	global_batch_output_array[1].memory_id = 1;
 	global_batch_output_array[1].size = 4096 + 4096;
 	global_batch_output_array[1].phy_addr = (unsigned int) malloc (8192);
@@ -136,6 +150,7 @@ void init_global_var() {
 	}
 	global_batch_output_array[1].aligned_phy_addr = (global_batch_output_array[1].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_output_array[1].aligned_size = 4096;
+	global_batch_output_array[1].config = 0;
 	global_batch_output_array[2].memory_id = 2;
 	global_batch_output_array[2].size = 4096 + 4096;
 	global_batch_output_array[2].phy_addr = (unsigned int) malloc (8192);
@@ -144,6 +159,7 @@ void init_global_var() {
 	}
 	global_batch_output_array[2].aligned_phy_addr = (global_batch_output_array[2].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_output_array[2].aligned_size = 4096;
+	global_batch_output_array[2].config = 0;
 	global_batch_output_array[3].memory_id = 3;
 	global_batch_output_array[3].size = 4096 + 4096;
 	global_batch_output_array[3].phy_addr = (unsigned int) malloc (8192);
@@ -152,6 +168,7 @@ void init_global_var() {
 	}
 	global_batch_output_array[3].aligned_phy_addr = (global_batch_output_array[3].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_output_array[3].aligned_size = 4096;
+	global_batch_output_array[3].config = 0;
 	global_batch_output_array[4].memory_id = 4;
 	global_batch_output_array[4].size = 4096 + 4096;
 	global_batch_output_array[4].phy_addr = (unsigned int) malloc (8192);
@@ -160,6 +177,7 @@ void init_global_var() {
 	}
 	global_batch_output_array[4].aligned_phy_addr = (global_batch_output_array[4].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_output_array[4].aligned_size = 4096;
+	global_batch_output_array[4].config = 0;
 	global_batch_output_array[5].memory_id = 5;
 	global_batch_output_array[5].size = 4096 + 4096;
 	global_batch_output_array[5].phy_addr = (unsigned int) malloc (8192);
@@ -168,6 +186,7 @@ void init_global_var() {
 	}
 	global_batch_output_array[5].aligned_phy_addr = (global_batch_output_array[5].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_output_array[5].aligned_size = 4096;
+	global_batch_output_array[5].config = 0;
 	global_batch_output_array[6].memory_id = 6;
 	global_batch_output_array[6].size = 4096 + 4096;
 	global_batch_output_array[6].phy_addr = (unsigned int) malloc (8192);
@@ -176,6 +195,7 @@ void init_global_var() {
 	}
 	global_batch_output_array[6].aligned_phy_addr = (global_batch_output_array[6].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_output_array[6].aligned_size = 4096;
+	global_batch_output_array[6].config = 0;
 	global_batch_output_array[7].memory_id = 7;
 	global_batch_output_array[7].size = 4096 + 4096;
 	global_batch_output_array[7].phy_addr = (unsigned int) malloc (8192);
@@ -184,6 +204,7 @@ void init_global_var() {
 	}
 	global_batch_output_array[7].aligned_phy_addr = (global_batch_output_array[7].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_output_array[7].aligned_size = 4096;
+	global_batch_output_array[7].config = 0;
 	global_batch_output_array[8].memory_id = 8;
 	global_batch_output_array[8].size = 4096 + 4096;
 	global_batch_output_array[8].phy_addr = (unsigned int) malloc (8192);
@@ -192,6 +213,7 @@ void init_global_var() {
 	}
 	global_batch_output_array[8].aligned_phy_addr = (global_batch_output_array[8].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_output_array[8].aligned_size = 4096;
+	global_batch_output_array[8].config = 0;
 	global_batch_output_array[9].memory_id = 9;
 	global_batch_output_array[9].size = 4096 + 4096;
 	global_batch_output_array[9].phy_addr = (unsigned int) malloc (8192);
@@ -200,5 +222,6 @@ void init_global_var() {
 	}
 	global_batch_output_array[9].aligned_phy_addr = (global_batch_output_array[9].phy_addr + 0x1000 -1 ) & (~(0x1000-1));
 	global_batch_output_array[9].aligned_size = 4096;
+	global_batch_output_array[9].config = 0;
 
 }
